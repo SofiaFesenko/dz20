@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.header {
+    background-image: url('./bg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+}
+
+.menuTitle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.menuLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.headerContent{
+    margin-top: 30%;
+}
+
+.headerTitle {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.headerLink {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+}
+
+.headerLink:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.menuLink:hover {
+    border-bottom: 1px solid white;
+}
+
+.aboutPart {
+    height: 100vh;
+}
+
+.aboutContent {
+    width: 50%;
+    margin: auto;
+    padding-top: 170px;
+}
+
+.aboutTitle {
+    font-size: 70px;
+    text-align: center;
+}
+
+.aboutText {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.aboutButton {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+}
+
+.aboutButton:hover {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    transition: 0.3s;
+}
+
+.projects {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.projectTitle {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projestItems {
+    display: flex;
+    gap: 20px;
+}
+
+.itemCard {
+    width: 350px;
+}
+
+.photoWrapper {
+    overflow: hidden;
+    height: 240px;
+}
+
+.cardPhoto {
+    width: 100%;
+}
+
+.cardText {
+    color: white;
+    font-size: 17px;
+}
+
+.projectsButton {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.projectsButton:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transition: 0.3s;
+}
